@@ -1,0 +1,13 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a{
+    margin-right : 10px;
+}
+
+.form{
+    background: rgba(67, 224, 224 ,.4);
+    margin : 0px 160px;
+}
