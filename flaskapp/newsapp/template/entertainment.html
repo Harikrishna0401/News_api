@@ -1,0 +1,22 @@
+{% extends "desktop1.html" %}
+{% block content %}
+<div class="jumbotron">
+    <h1>Entertainment News</h1>
+</div>
+
+{{ pagination.links }}
+
+<div class="container">
+    {% for n,d,i,l in  context %}
+
+    <img src="{{i}}"  alt="">
+    <h3>News: </h3>{{n}}
+    <h4>Description: </h4>{{d}}
+    <a href="{{l}}">READ_MORE</a>
+
+    {% endfor %}
+</div>
+
+{{ pagination.links }}
+
+{% endblock content %}
